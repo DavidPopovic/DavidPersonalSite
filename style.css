@@ -1,0 +1,183 @@
+.body{
+    font-family: "Merriweather", serif;
+
+}
+
+.top-container p {
+    font-size: 120px;
+    color: #F0F0F0;
+    
+  }
+  .i {  
+    color: #F9D949;
+    position: relative;
+  }
+  .i:before {
+    content: "ı";
+    position: absolute; 
+    color: #F0F0F0;
+  }
+  .top-container {
+    position: relative;
+  width: 100vw;
+  height: 100vh;
+    background-color: #3C486B;
+  }
+  .img2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40vh;
+   
+  }
+  .img1 {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    height: 80vh;
+  }
+  .text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    
+  }
+  h1{
+    font-size: 60px;
+    color: #F45050;
+   text-align: center;
+  }
+  h2 { 
+    
+    font-size: 50px;
+    text-align: center;
+    color: #F45050;
+  }
+  .text p {
+    margin-top: 0; 
+    margin-bottom: 0; 
+    padding-top: 0; 
+    padding-bottom: 0; 
+  }
+  .middle-container p {
+text-align: center;
+font-size: 25px;
+
+  }
+  hr {
+    padding-top:  50px;
+   
+    border: 0;
+    height: 1px;
+    background: #3C486B;
+    background-image: linear-gradient(to right, #ccc, #3C486B, #ccc);
+}
+.middle-container{
+    padding:10%;
+    background-color: #F0F0F0;
+}
+.bottom-container {
+  font-size: larger;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+   
+    
+}
+.bottom-container img {
+  height: 150px;
+  padding-right: 20px;
+}
+
+.skills {
+    background-color: #F0F0F0;
+}
+
+
+h3 {
+  color:crimson;
+  text-align: center;
+}
+.bottom-container p{
+  text-align: left;
+}
+.bottom-container h2 {
+  text-align: left;
+}
+.end p{
+  text-align: center;
+  font-family: sans-serif;
+}
+.contact-button {
+ position: relative;
+ left: 45%;
+ top: 40px;
+  padding: 12px 24px;
+  background-color: #05BFDB ;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  
+}
+
+.contact-button:hover {
+  background-color: #31E1F7;
+}
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.footer {
+  margin-top: 70px;
+  background-color: #3C486B;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+@media (max-width: 1300px) {
+  .img1 {
+    display: none; 
+    
+   
+    background-color: #3C486B; 
+  }
+  .text {
+    position: relative;
+    left: 8%;
+  }
+  .contact-button {
+    left: 40%;
+  }
+}
+@media (max-width: 1000px) {
+.img2 {
+  height:30% ;
+}
+.text p {
+  font-size: 75px;
+}
+.bottom-container {
+  font-size: larger;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 100%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+
+}
+.contact-button {
+  left: 30%;
+}
+}
